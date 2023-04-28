@@ -20,9 +20,10 @@ public class OracleConnection {
             Class.forName("oracle.jdbc.driver.OracleDriver");
             //create connection object
             connection = DriverManager.getConnection(
-                    "jdbc:oracle:thin:@168.28.42.148:1521:csit", 
-                    "tdavis112", ///use your oracle user name
-                    "tdavis112"); //use your oracle password
+                    //cloud AWS (better to handle this info for security reasons)
+                    "jdbc:oracle:thin:@"ADD LOCAL HOST":1521:csit", 
+                    "*****", ///use your oracle user name
+                    "******"); //use your oracle password
         }catch(Exception exps){
             exps.printStackTrace();
             return null;
