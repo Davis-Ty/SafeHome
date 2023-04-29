@@ -58,6 +58,10 @@
                 padding: 10px 20px;
                 cursor: pointer;
                 margin-right: 10px;
+                
+            }
+           #submit-Forgotpassword {
+                margin-top: 10px;
             }
          
         </style>
@@ -69,7 +73,7 @@
             <input type="text" name="email" /> </br>
             <div id ="pwd">Password</div>
             <input type="text" name="pwd" /> </br>
-            <a href="sh_options.jsp"><input type="button" id="submit-login"><a/>
+            <a href="sh_options.jsp"><button type="submit" id="submit-login">Login</button><a/>
             <a href="sh_forgotpassword.jsp"><button type="button" id="submit-Forgotpassword" style="padding: 10px 30px;">Forgot Password</button></a>
             
             
