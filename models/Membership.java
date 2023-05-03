@@ -116,11 +116,11 @@ public class Membership implements Serializable {
         Membership mem = new Membership();
         if( mem.login(email, password) ){
             System.out.println(email + 
-                    " Welcome to CSCI3320");
+                    " Safe Home");
         }
         else {
             System.out.println(email + 
-                    " does not has access!!!");
+                    " Wrong password or username");
         }
         
     }
